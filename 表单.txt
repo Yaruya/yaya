@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+<head>
+   <title>表单和表格综合示例</title>
+</head>
+<body>
+  <form>
+      <fieldest>
+      <legend>申请表</legend>
+      <table>
+      <tr>
+         <td>姓名</td>
+         <td><input type="text"name="uname"autofocus="autofocus"/></td>
+         <td>院系</td>
+         <td><input type="text"name="uname"autofocus="autofocus"/></td>
+      </tr>
+      <tr>
+         <td>性别</td>
+         <td><input type="radio"name="sex"checked="checked"/>男
+             <input type="radio"name="sex"/>女</td>
+          <td>注册时间</td>
+          <td><input name="txt_Date_3"type="date"/></td>
+      </tr>
+      <tr>
+         <td>民族</td>
+         <td><input type="text"name="uname"autofocus="autofocus"/></td>
+         <td>联系电话</td>
+         <td><input type="text"pattern="\d{11}"/></td>
+      </tr>  
+      <tr>
+         <td rowspan="2"colspan="3">照片</td>
+      </tr>
+      <tr>
+         <td>爱好</td>
+         <td><input type="checkbox"name="habit"/>阅读
+             <input type="checkbox"name="habit"/>运动
+             <input type="checkbox"name="habit"/>跳舞</br>
+             <input type="checkbox"name="habit"/>旅游
+             <input type="checkbox"name="habit"/>音乐
+             <input type="checkbox"name="habit"/>烹饪</td>
+      </tr>
+      <tr>
+         <td>简介</td>
+         <td><textarea rowspan="3"colspan="5"name="textarea">请添加描述</textarea></td>
+      </tr>
+       <tr>
+         <td><input type="submit"value="提交"/></td>
+         <td><input type="reset"value="重置"/></td>
+      </tr>
+      </table>
+      </fieldest>
+   </form>
+</body>
+</html>
