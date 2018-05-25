@@ -1,0 +1,29 @@
+create database sql
+
+use sql
+go
+
+create table teacher
+(sno char(2),sname nvarchar(4),pro varchar(4),sal int)
+
+insert into teacher 
+values ('01','张三','老师',3500),
+('02','李平','教授',4300),
+('03','李艳','教授',3200),
+('04','王二','教授',3900)
+
+select * from teacher 
+
+create trigger trig on teacher 
+after insert,update
+as
+     begin 
+	       select * from inserted 
+		   update teacher
+		   set sal = 4000
+		   where pro = '教授' and sal < 4000
+   	 end
+go
+
+insert into teacher 
+values('06','李武','教授',5000)
