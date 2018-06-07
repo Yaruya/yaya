@@ -1,0 +1,42 @@
+body{
+      background-color:#FFF;
+      color:#000;
+      font-size:14px;
+}
+section{
+        line-height:1.5;
+        text-indent:2em;
+}
+footer{
+        footer-size:13px;
+        text-align:center;
+        color:#AAA
+        line-height:1;
+}
+hr{
+    clear:both£»
+}
+h1{
+    text-align:center;
+    font-size:24px;
+    font-weight:900;
+    font-family:Î¢ÈíÑÅºÚ,ºÚÌå;
+    text-shadow:4px 3px 3px #FF9;
+    letter-spacing:5px;
+}
+ul{
+   margin:0;
+   padding:0;
+}
+li{
+   list-style-type:none;
+   float:left;
+   margin:2px 10px;
+}
+a{
+  text-decoration:none;
+  color:#00F;
+}
+img{
+     float:left;
+}
